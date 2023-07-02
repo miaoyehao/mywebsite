@@ -21,4 +21,4 @@ date: 2023-06-27T15:52:45+08:00
     ssh-keygen -t rsa -c
 #### （4）将生成的ssh公钥添加到GitHub里。
 ##### 在GitHub设置里。 
-![github](/assets/img/1.png "GitHub设置")
+![这是图片](/assets/img/1.png "GitHub设置")
