@@ -11,4 +11,6 @@ date: 2023-06-27T15:52:45+08:00
 # github新建库，名为mywebsite，私人储存库。
 
 # 安装hugo
-## 一、进入hugogithub官网按照文档下载并安装好。
+### 一、进入hugogithub官网按照文档下载并安装好。
+### 二、将GitHub上mywebsite储存库clone下来
+#### （1）git先去官网下载安装配置好name和email：At the command prompt, type `nano`
