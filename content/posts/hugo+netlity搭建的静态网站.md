@@ -22,7 +22,7 @@ date: 2023-06-27T15:52:45+08:00
 #### （4）将生成的ssh公钥添加到GitHub里。
 ##### 在GitHub设置里。 
 ####第二种，拉取私库的方法(token)
-#####在github我的settings中的developer settings选择personal access tokens
+####在github我的settings中的developer settings选择personal access tokens
 #####选择tokens(classic),新建new tokens。
 #####现在可以克隆库了
     git clone https://输入刚刚生成的tokens@github.com/miaoyehao/mywebsite.git
