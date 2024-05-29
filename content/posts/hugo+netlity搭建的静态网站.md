@@ -26,11 +26,11 @@ date: 2023-06-27T15:52:45+08:00
 ##### 选择tokens(classic),新建new tokens。
 ##### 现在可以克隆库了
     git clone https://输入刚刚生成的tokens@github.com/miaoyehao/mywebsite.git
-#####记住密码
+##### 记住密码
     git config --global credential.helper store
-#####拉库
+##### 拉库
     git pull origin main
-###三、安装主题
+### 三、安装主题
     cd mywebsite
     git init
     git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
