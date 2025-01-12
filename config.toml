@@ -1,15 +1,15 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "起心动念"
+baseURL = "https://myh.now.cc"
+title = "强风"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
 # 主题选择
-theme = "meme"
+theme = "blowfish"
 
 # `hugo new` 新建文章自动打开的文本编辑器
 newContentEditor = ""
