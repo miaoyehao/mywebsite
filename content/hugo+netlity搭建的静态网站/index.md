@@ -4,9 +4,9 @@ date: 2024-05-29T15:52:45+08:00
 
 ---
 
-# 前置条件github账号、netlify账号；然后github新建库，名为mywebsite，最好是私人储存库。
+### 前置条件github账号、netlify账号；然后github新建库，名为mywebsite，最好是私人储存库。
 
-# 安装hugo
+### 安装hugo
 1. 进入hugogithub官网按照文档下载并安装好。
 2. 将GitHub上mywebsite储存库clone下来。
     - git先去官网下载安装配置好name：
