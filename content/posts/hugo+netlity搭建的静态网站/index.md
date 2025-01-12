@@ -45,22 +45,22 @@ date: 2024-05-29T15:52:45+08:00
     git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
     ```
 4. hugo配置
-   '''bash
+   ```bash
    baseURL = "网址"
    title = "标题"
    languageCode = "zh-CN"
    theme = "blowfish"
-   '''    
+   ```    
 5. 撰写文章
    - Hugo要新增文章可以选择在content/posts下新增多个xxx.md的档案，也可以每篇文章一个目录＋index.md。本文採用的是后者作法，以Hugo的术语来说称作page bundle，index.md的作用等同index.html，这样可以方便你整理每篇文章所需的资源。
    - index.md输入以下内容，表示文章属性，即分割线---包围的部分。
-   '''bash
+   ```bash
     ---
     title: "我的第一篇文章"
     date: 2023-03-25T17:00:00+08:00
     draft: false
     ---
     ![](https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif)
-   '''
+   ```
 6. Hugo一律以Markdown语法撰写文章，可插入HTML、CSS、JavaScript装饰。
 7. Hugo要插入图片有很多种方法。上面的例子是把图片放外部图床，再直接贴网址，这样网站储存库就只有文字档案，减少容量。
