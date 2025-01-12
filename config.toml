@@ -1,9 +1,9 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://example.com/"
-title = "Hugo Theme MemE"
-languageCode = "en"
+baseURL = "https://myh.now.cc"
+title = "强风吹拂"
+languageCode = "zh"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
