@@ -44,3 +44,10 @@ date: 2024-05-29T15:52:45+08:00
     git init
     git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
     ```
+4. hugo配置
+   '''bash
+   baseURL = "网址"
+   title = "标题"
+   languageCode = "zh-CN"
+   theme = "blowfish"
+   '''    
