@@ -26,16 +26,16 @@ date: 2024-05-29T15:52:45+08:00
 #### 安装hugo
 1. 进入hugogithub官网按照文档下载并安装好。
 2. 将GitHub上mywebsite储存库clone下来。
-    - git先去官网下载安装配置好name：
+   - git先去官网下载安装配置好name：
 ```bash
 git config --global user.name "John Doe"
 ```
-    - email配置：    
+   - email配置：    
 ```bash
 git config --global user.email johndoe@example.com
 ```
-    - 生成ssh密钥
-```bash
+   - 生成ssh密钥
+
 ssh-keygen -t rsa -c
 - 将生成的ssh公钥添加到GitHub里：
   1. 在GitHub设置页面中选择"SSH and GPG keys"
@@ -50,12 +50,11 @@ ssh-keygen -t rsa -c
 ```bash
 git clone https://[token]@github.com/username/repository.git
 ```
-```
-    - 记住密码
+  - 记住密码
 ```bash
 git config --global credential.helper store
 ```
-    - 拉库
+  - 拉库
 ```bash
 git pull origin main
 ```
