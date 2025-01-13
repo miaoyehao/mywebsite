@@ -1,12 +1,12 @@
 ---
 title: "Hugo+netlity搭建的静态网站"
 date: 2024-05-29T15:52:45+08:00
-
 ---
 
-### 前置条件github账号、netlify账号；然后github新建库，名为mywebsite，最好是私人储存库。
+#### 准备工作
+##### 前置条件github账号、netlify账号；然后github新建库，名为mywebsite，最好是私人储存库。
 
-### 安装hugo
+#### 安装hugo
 1. 进入hugogithub官网按照文档下载并安装好。
 2. 将GitHub上mywebsite储存库clone下来。
     - git先去官网下载安装配置好name：
@@ -38,20 +38,22 @@ date: 2024-05-29T15:52:45+08:00
     ```bash
     git pull origin main
     ```
-3. 安装主题
+
+#### 配置和使用
+##### 安装主题
     ```bash
     cd mywebsite
     git init
     git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
     ```
-4. hugo配置
+##### hugo配置
    ```bash
    baseURL = "网址"
    title = "标题"
    languageCode = "zh-CN"
    theme = "blowfish"
    ```    
-5. 撰写文章
+##### 撰写文章
    - Hugo要新增文章可以选择在content/posts下新增多个xxx.md的档案，也可以每篇文章一个目录＋index.md。本文採用的是后者作法，以Hugo的术语来说称作page bundle，index.md的作用等同index.html，这样可以方便你整理每篇文章所需的资源。
    - index.md输入以下内容，表示文章属性，即分割线---包围的部分。
    ```bash
@@ -87,7 +89,9 @@ date: 2024-05-29T15:52:45+08:00
     git push
     echo -e "\e[93mDeployed to Netlify.\e[0m"
     ```
-### github|netlify
+
+#### github|netlify配置
+##### Netlify设置
 1. 在Hugo网站根目录新增netlify.toml配置文件
    ```bash
    # 部署时执行的指令，--minify压缩HTML，--gc自动在建置后刪除快取档案
@@ -101,3 +105,4 @@ date: 2024-05-29T15:52:45+08:00
     ```
 2. 登陆netlify，点击Add a site - import an existing project from a git repository选择我们的网站库。
 3. 选择site setting，Domains management中的Domains添加自己的域名
+4. 添加Netlify DNS到你的域名托管。
