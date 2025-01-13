@@ -6,5 +6,5 @@ title = 'about'
 +++
 
 <div align="center">
-    <h1><mark>纵</mark>有疾风起，人生不言弃！</h1>
+    <h1><span style="font-size: larger;"><mark style="background: none; color: #ffeb3b;">纵</mark></span>有疾风起，人生不言弃！</h1>
 </div>
