@@ -3,7 +3,11 @@ title: "Hugo+netlity搭建的静态网站"
 date: 2024-05-29T15:52:45+08:00
 ---
 
+<div style="text-align: center;">
+
 #### 准备工作
+
+</div>
 ##### 前置条件github账号、netlify账号；然后github新建库，名为mywebsite，最好是私人储存库。
 
 #### 安装hugo
