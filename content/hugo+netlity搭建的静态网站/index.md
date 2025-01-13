@@ -35,8 +35,9 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
    - 生成ssh密钥
-
+```bash
 ssh-keygen -t rsa -c
+```
 - 将生成的ssh公钥添加到GitHub里：
   1. 在GitHub设置页面中选择"SSH and GPG keys"
   2. 点击"New SSH key"
