@@ -65,3 +65,39 @@ date: 2024-05-29T15:52:45+08:00
 6. Hugo一律以Markdown语法撰写文章，可插入HTML、CSS、JavaScript装饰。
 7. Hugo要插入图片有很多种方法。上面的例子是把图片放外部图床，再直接贴网址，这样网站储存库就只有文字档案，减少容量。
 8. 本机预览
+   ```bash
+   hugo server
+   ```
+9. 另外介绍Hugo好用的功能：网站根目录一有档案变更，不用停止伺服器，Hugo也会自动重新生成网站。
+10. 如果执行hugo指令，就是单纯生成html，你可以此评估网站生成速度，网站根目录下会產生一个public目录，那就是静態网站的「成品」。
+11. 將网站原始码推送到Github
+    ```bash
+    cd mywebsite
+    #远端Git储存库设定
+    git remote add origin "网址"
+    #推送
+    git add -A
+    git commit -m "网站更新"
+    git push -u origin main
+    ```
+    脚本
+    ```bash
+    git add -A
+    git commit -m "网站更新"
+    git push
+    echo -e "\e[93mDeployed to Netlify.\e[0m"
+    ```
+### github|netlify
+1. 在Hugo网站根目录新增netlify.toml配置文件
+   ```bash
+   # 部署时执行的指令，--minify压缩HTML，--gc自动在建置后刪除快取档案
+    [build]
+    publish = "public"
+    command = "hugo --gc --minify"
+
+    # 指定Hugo版本，应与本机安装的Hugo版本一致
+    [build.environment]
+    HUGO_VERSION = "0.121.1"
+    ```
+2. 登陆netlify，点击Add a site - import an existing project from a git repository选择我们的网站库。
+3. 选择site setting，Domains management中的Domains添加自己的域名
