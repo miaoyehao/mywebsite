@@ -3,6 +3,16 @@ title: "Hugo+netlity搭建的静态网站"
 date: 2024-05-29T15:52:45+08:00
 ---
 
+<style>
+.apple-divider {
+    border: none;
+    height: 1px;
+    background: #d2d2d7;
+    margin: 2.5rem auto;
+    max-width: 980px;
+}
+</style>
+
 <div style="text-align: center;">
 
 #### 准备工作
@@ -10,6 +20,8 @@ date: 2024-05-29T15:52:45+08:00
 </div>
 
 ##### 前置条件github账号、netlify账号；然后github新建库，名为mywebsite，最好是私人储存库。
+
+<hr class="apple-divider">
 
 #### 安装hugo
 1. 进入hugogithub官网按照文档下载并安装好。
@@ -43,6 +55,8 @@ git config --global credential.helper store
 ```bash
 git pull origin main
 ```
+
+<hr class="apple-divider">
 
 #### 配置和使用
 ##### 安装主题
@@ -95,12 +109,8 @@ git push
 echo -e "\e[93mDeployed to Netlify.\e[0m"
 ```
 
-#### github|netlify配置
-##### Netlify设置
-1. 在Hugo网站根目录新增netlify.toml配置文件
-```toml
-# 部署时执行的指令，--minify压缩HTML，--gc自动在建置后刪除快取档案
-[build]
+<hr class="apple-divider">
+#### github|netlify配置##### Netlify设置1. 在Hugo网站根目录新增netlify.toml配置文件```toml# 部署时执行的指令，--minify压缩HTML，--gc自动在建置后刪除快取档案[build]
 publish = "public"
 command = "hugo --gc --minify"
 
