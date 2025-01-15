@@ -15,4 +15,8 @@ title = 'About'
         <source src="https://pisces.now.cc/d/BQACAgUAAxkDAAN9Z4ea6gaALLRMX22JabghxZhN2RkAAgEVAAIDzDlUYNFRKeCEi_E2BA" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+    <video controls style="width: 100%; max-width: 800px; margin-top: 20px;">
+        <source src="https://pisces.now.cc/d/BQACAgUAAxkDAAN9Z4ea6gaALLRMX22JabghxZhN2RkAAgEVAAIDzDlUYNFRKeCEi_E2BA" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
 </div>
