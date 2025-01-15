@@ -10,14 +10,4 @@ title = 'About'
     </h1>
 </div>
 
-<a href="https://pisces.now.cc/d/BQACAgUAAxkDAAN9Z4ea6gaALLRMX22JabghxZhN2RkAAgEVAAIDzDlUYNFRKeCEi_E2BA" 
-       style="display: inline-block; 
-              margin-top: 20px;
-              padding: 10px 20px;
-              background-color: #007AFF;
-              color: white;
-              text-decoration: none;
-              border-radius: 5px;
-              font-family: 'SF Pro Display', sans-serif;">
-        点击下载
-</a>
+[2025-01-15 17.56.18.mp4](https://pisces.now.cc/d/BQACAgUAAxkDAAN9Z4ea6gaALLRMX22JabghxZhN2RkAAgEVAAIDzDlUYNFRKeCEi_E2BA)
