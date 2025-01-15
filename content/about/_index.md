@@ -10,13 +10,14 @@ title = 'About'
     </h1>
 </div>
 
-<div style="margin: 30px auto;">
-    <audio controls style="width: 100%; max-width: 500px;">
-        <source src="https://pisces.now.cc/d/BQACAgUAAxkDAAN9Z4ea6gaALLRMX22JabghxZhN2RkAAgEVAAIDzDlUYNFRKeCEi_E2BA" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <video controls style="width: 100%; max-width: 800px; margin-top: 20px;">
-        <source src="https://pisces.now.cc/d/BQACAgUAAxkDAAN9Z4ea6gaALLRMX22JabghxZhN2RkAAgEVAAIDzDlUYNFRKeCEi_E2BA" type="video/mp4">
-        Your browser does not support the video element.
-    </video>
-</div>
+<a href="https://pisces.now.cc/d/BQACAgUAAxkDAAN9Z4ea6gaALLRMX22JabghxZhN2RkAAgEVAAIDzDlUYNFRKeCEi_E2BA" 
+       style="display: inline-block; 
+              margin-top: 20px;
+              padding: 10px 20px;
+              background-color: #007AFF;
+              color: white;
+              text-decoration: none;
+              border-radius: 5px;
+              font-family: 'SF Pro Display', sans-serif;">
+        点击下载
+</a>
