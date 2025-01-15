@@ -12,4 +12,15 @@ title = 'About'
 
 ![just do it!](https://pisces.now.cc/d/BQACAgUAAxkDAAN5Z4eauaYKblpvAmR2MBRBbrTcqt4AAv0UAAIDzDlUKHNhtLS1wwQ2BA "HaH")
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113440991485820&bvid=BV1FwDDYGEvJ&cid=26654671085&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe 
+    src="//player.bilibili.com/player.html?aid=113440991485820&bvid=BV1FwDDYGEvJ&cid=26654671085&p=1&high_quality=1&danmaku=1" 
+    width="800" 
+    height="500" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true"
+    sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"
+    allow="autoplay">
+</iframe>
