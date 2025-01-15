@@ -10,4 +10,4 @@ title = 'About'
     </h1>
 </div>
 
-![不破圣衣来](https://tgstate-flame.vercel.app/d/BQACAgUAAxkDAANhZ4dZ7R9fs3zxRkg_iAsnu9c3YhIAAokUAAIDzDlU_fyH0_Ws0c02BA "OTA")
+![just do it!](https://pisces.now.cc/d/BQACAgUAAxkDAAN5Z4eauaYKblpvAmR2MBRBbrTcqt4AAv0UAAIDzDlUKHNhtLS1wwQ2BA "HaH")
