@@ -11,3 +11,6 @@ title = 'About'
 </div>
 
 ![just do it!](https://pisces.now.cc/d/BQACAgUAAxkDAAN5Z4eauaYKblpvAmR2MBRBbrTcqt4AAv0UAAIDzDlUKHNhtLS1wwQ2BA "HaH")
+{{< youtube VIDEO_ID >}}
+{{<BV1FwDDYGEvJ>}}
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113440991485820&bvid=BV1FwDDYGEvJ&cid=26654671085&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
