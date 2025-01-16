@@ -9,5 +9,3 @@ title = 'About'
         <span style="color: #007AFF;">纵</span>有疾风起，人生不言弃！
     </h1>
 </div>
-
-[2025-01-15 17.56.18.mp4](https://pisces.now.cc/d/BQACAgUAAxkDAAN9Z4ea6gaALLRMX22JabghxZhN2RkAAgEVAAIDzDlUYNFRKeCEi_E2BA)
