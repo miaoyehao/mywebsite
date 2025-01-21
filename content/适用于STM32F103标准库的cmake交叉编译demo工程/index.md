@@ -10,7 +10,7 @@ draft: false
     height: 1px;
     background: #d2d2d7;
     margin: 2.5rem auto;
-    max-width: 1000px;
+    max-width: 1004px;
 }
 </style> 
 
