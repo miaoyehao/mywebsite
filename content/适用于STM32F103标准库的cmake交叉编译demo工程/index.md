@@ -179,3 +179,8 @@ source [find interface/stlink.cfg]
 source [find target/stm32f1x.cfg]
 program /Users/miao/Documents/StmProject/Test/build/Test.hex verify reset exit
 ```
+##### VSCODE设置
+1. 设置环境
+![](https://pisces.now.cc/d/BQACAgUAAxkDAAOFZ4-XrMQm74Dpy_XZ5cJgGU2YQNcAAuEUAAInCXhUyQSeQlJLGxI2BA)
+2. cortex-debug 配置
+![](https://pisces.now.cc/d/BQACAgUAAxkDAAOGZ4-Yt3_R1ftMS0tfRt9AMx8rRx8AAuYUAAInCXhUcf7Ou8U9fwABNgQ)
