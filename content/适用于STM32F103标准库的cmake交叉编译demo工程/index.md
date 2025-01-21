@@ -10,7 +10,7 @@ draft: false
     height: 1px;
     background: #d2d2d7;
     margin: 2.5rem auto;
-    max-width: 980px;
+    max-width: 1000px;
 }
 </style> 
 
@@ -18,7 +18,7 @@ draft: false
 <hr class="apple-divider">
 
 ##### 一、安装必要工具 
-1. MAC的安装可以通过homebrew；linux等可以使用自带的包管理器，windows可以使用MINGW。
+1. MAC的安装可以通过homebrew；linux等可以使用自带的包管理器，windows可以使用MINGW，需要手动安装arm-none-eabi-gcc配置环境变量。
 ```bash
 #For mac,first install homebrew 
 xcode-select --install 
