@@ -179,9 +179,10 @@ source [find interface/stlink.cfg]
 source [find target/stm32f1x.cfg]
 program /Users/miao/Documents/StmProject/Test/build/Test.hex verify reset exit
 ```
-##### VSCODE设置
+##### 四、VSCODE设置
 1. 设置环境
 ![](https://pisces.now.cc/d/BQACAgUAAxkDAAOFZ4-XrMQm74Dpy_XZ5cJgGU2YQNcAAuEUAAInCXhUyQSeQlJLGxI2BA)
 2. cortex-debug 配置,如果想看寄存器文件需要下载[svd文件](https://www.st.com/content/st_com/en/search.html#)然后添加到配置里。
 ![](https://pisces.now.cc/d/BQACAgUAAxkDAAOGZ4-Yt3_R1ftMS0tfRt9AMx8rRx8AAuYUAAInCXhUcf7Ou8U9fwABNgQ)
 3. 另外附上[standard peripheral](https://www.st.com/content/st_com/en/search.html#q=%20standard%20peripheral%20library-t=tools-page=1)
+##### 五、运行烧录，执行run.sh脚本。
