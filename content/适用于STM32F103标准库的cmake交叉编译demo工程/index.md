@@ -3,9 +3,17 @@ title: "STM32F03标准库cmake|demo"
 date: 2025-01-21T7:00:45+08:00
 draft: false
 ---
-
+<style>
+.apple-divider {
+    border: none;
+    height: 1px;
+    background: #d2d2d7;
+    margin: 2.5rem auto;
+    max-width: 980px;
+}
+</style>
 #### <div style="text-align: center;"> 使用强大的cmake、openocd开源编译器，不限平台。</div>
-
+<hr class="apple-divider">
 ##### 一、安装必要工具 
 1. MAC的安装可以通过homebrew；linux等可以使用自带的包管理器，windows可以使用MINGW。
 ```bash
