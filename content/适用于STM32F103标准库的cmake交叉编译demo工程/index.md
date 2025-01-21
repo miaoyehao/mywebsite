@@ -182,5 +182,5 @@ program /Users/miao/Documents/StmProject/Test/build/Test.hex verify reset exit
 ##### VSCODE设置
 1. 设置环境
 ![](https://pisces.now.cc/d/BQACAgUAAxkDAAOFZ4-XrMQm74Dpy_XZ5cJgGU2YQNcAAuEUAAInCXhUyQSeQlJLGxI2BA)
-2. cortex-debug 配置,如果想看寄存器文件需要下载svd文件然后添加到配置里。
+2. cortex-debug 配置,如果想看寄存器文件需要下载[svd文件](https://www.st.com/content/st_com/en/search.html#)然后添加到配置里。
 ![](https://pisces.now.cc/d/BQACAgUAAxkDAAOGZ4-Yt3_R1ftMS0tfRt9AMx8rRx8AAuYUAAInCXhUcf7Ou8U9fwABNgQ)
