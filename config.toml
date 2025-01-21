@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://myh.now.cc"
-title = "WINDRAISE⌛︎"
+title = "WINDRAISE™"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
