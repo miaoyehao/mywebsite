@@ -21,9 +21,9 @@ date: 2024-05-29T15:52:45+08:00
 
 </div>
 
-##### 前置条件github账号、netlify账号；然后github新建库，名为mywebsite，最好是私人储存库。
+##### github账号、netlify账号；然后github新建库，名为mywebsite，最好是私人储存库。
 
-#### 安装hugo
+##### 安装hugo
 1. 进入hugogithub官网按照文档下载并安装好。
 2. 将GitHub上mywebsite储存库clone下来。
    - git先去官网下载安装配置好name：
@@ -60,21 +60,21 @@ git config --global credential.helper store
 git pull origin main
 ```
 
-#### 配置和使用
-##### 安装主题
+##### 配置和使用
+###### 安装主题
 ```bash
 cd mywebsite
 git init
 git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 ```
-##### hugo配置
+###### hugo配置
 ```toml
 baseURL = "网址"
 title = "标题"
 languageCode = "zh-CN"
 theme = "blowfish"
 ```    
-##### 撰写文章
+###### 撰写文章
    - Hugo要新增文章可以选择在content/posts下新增多个xxx.md的档案，也可以每篇文章一个目录＋index.md。本文採用的是后者作法，以Hugo的术语来说称作page bundle，index.md的作用等同index.html，这样可以方便你整理每篇文章所需的资源。
    - index.md输入以下内容，表示文章属性，即分割线---包围的部分。
 ```yaml
@@ -108,10 +108,10 @@ git push -u origin main
 git add -A
 git commit -m "网站更新"
 git push
-echo -e "\e[93mDeployed to Netlify.\e[0m"
+echo -e "Deployed to Netlify.com\n"
 ```
 
-#### github|netlify配置
+##### github|netlify配置
 1. Netlify设置1. 在Hugo网站根目录新增netlify.toml配置文件
 ```bash
 # 部署时执行的指令，--minify压缩HTML，--gc自动在建置后刪除快取档案[build]
