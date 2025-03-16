@@ -14,14 +14,20 @@ theme = "meme"
 # `hugo new` 新建文章自动打开的文本编辑器
 newContentEditor = ""
 
-#giscus 
+# Enable comments globally first
+enableComments = true 
+
+# Then enable Giscus specifically
+enableGiscus = true
+
 [params.page.comment]
 enable = true
+
 [params.page.comment.giscus]
 enable = true
 data-repo="miaoyehao/mywebsite"
 data-repo-id="R_kgDOJzyPDA"
-data-category="Announcements"
+data-category="Announcements" 
 data-category-id="DIC_kwDOJzyPDM4CoF5A"
 data-mapping="pathname"
 data-strict="0"
