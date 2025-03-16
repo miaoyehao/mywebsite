@@ -37,7 +37,7 @@ brew install cmake make armmbed/formulae/arm-none-eabi-gcc openocd git
     - CMake
     - Cortex-Debug
 ##### 三、系统工程示意图
-![系统工程示意图](/content/posts/适用于STM32F103标准库的cmake交叉编译demo工程/images/q.jpg)
+![系统工程示意图](images/q.jpg)
 1. CMakeFlis.txt 文件编写
 ```bash
 #THIS FILE IS AUTO GENERATED FROM THE TEMPLATE! DO NOT CHANGE!
@@ -181,9 +181,9 @@ program /Users/miao/Documents/StmProject/Test/build/Test.hex verify reset exit
 ```
 ##### 四、VSCODE设置
 1. 设置环境
-![](/content/适用于STM32F103标准库的cmake交叉编译demo工程/images/vscode.webp)
-2. cortex-debug 配置,如果想看寄存器文件需要下载[svd文件](https://www.st.com/content/st_com/en/search.html#)然后添加到配置里。
-![](/content/适用于STM32F103标准库的cmake交叉编译demo工程/images/debug.webp)
+![](images/vscode.webp)
+1. cortex-debug 配置,如果想看寄存器文件需要下载[svd文件](https://www.st.com/content/st_com/en/search.html#)然后添加到配置里。
+![](images/debug.webp)
 1. 另外附上[standard peripheral](https://www.st.com/content/st_com/en/search.html#q=%20standard%20peripheral%20library-t=tools-page=1)
 ##### 五、运行烧录，执行run.sh脚本。
 
