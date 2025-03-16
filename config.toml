@@ -18,6 +18,7 @@ newContentEditor = ""
 [params.page.comment]
 enable = true
 [params.page.comment.giscus]
+enable = true
 data-repo="miaoyehao/mywebsite"
 data-repo-id="R_kgDOJzyPDA"
 data-category="Announcements"
