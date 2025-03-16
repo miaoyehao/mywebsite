@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://myh.now.cc"
-title = "WINDRAISE™"
+baseURL = "https://example.com/"
+title = "Hugo 主题 MemE"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -592,7 +592,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = true
+    enableComments = false
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -768,7 +768,7 @@ uglyURLs = false
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
-    postWidth = 56
+    postWidth = 36
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -920,7 +920,7 @@ uglyURLs = false
     #      (~/blog/static/images/meme.jpg)
 
     # 是否开启
-    enableImageHost = true
+    enableImageHost = false
 
     # 图片外链地址
     imageHostURL = "https://example.com/"
@@ -1477,11 +1477,11 @@ uglyURLs = false
     # 作者信息
     [params.author]
         # 名字
-        name = "风吟"
+        name = "reuixiy"
         # 邮箱
         email = "reuixiy@gmail.com"
         # 座右铭或简介
-        motto = "百折不挠"
+        motto = "Viva La Vida"
         # 头像
         avatar = "/icons/apple-touch-icon.png"
         # 网站（默认值：baseURL）
