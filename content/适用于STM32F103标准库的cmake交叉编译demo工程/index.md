@@ -178,7 +178,7 @@ openocd -f "$PROJECT_DIR/flash.cfg"
 source [find interface/stlink.cfg]
 source [find target/stm32f1x.cfg]
 program /Users/miao/Documents/StmProject/Test/build/Test.hex verify reset exit
-```s
+```
 ##### 四、VSCODE设置
 1. 设置环境
 ![](/content/适用于STM32F103标准库的cmake交叉编译demo工程/images/Vscode.webp)
