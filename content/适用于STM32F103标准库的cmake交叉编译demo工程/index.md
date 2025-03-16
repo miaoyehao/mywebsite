@@ -37,7 +37,7 @@ brew install cmake make armmbed/formulae/arm-none-eabi-gcc openocd git
     - CMake
     - Cortex-Debug
 ##### 三、系统工程示意图
-![系统工程示意图](/content/适用于STM32F103标准库的cmake交叉编译demo工程/images/structure.webp)
+![系统工程示意图](/content/适用于STM32F103标准库的cmake交叉编译demo工程/images/1.jpg)
 1. CMakeFlis.txt 文件编写
 ```bash
 #THIS FILE IS AUTO GENERATED FROM THE TEMPLATE! DO NOT CHANGE!
