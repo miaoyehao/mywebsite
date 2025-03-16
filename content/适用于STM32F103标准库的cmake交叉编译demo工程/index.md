@@ -37,7 +37,7 @@ brew install cmake make armmbed/formulae/arm-none-eabi-gcc openocd git
     - CMake
     - Cortex-Debug
 ##### 三、系统工程示意图
-![系统工程示意图](https://pisces.now.cc/d/BQACAgUAAxkDAAOEZ49h08GanaUAAZKv9RO_g5z4K9lQAAJzFAACJwl4VGL7TMIYHgaGNgQ)
+![系统工程示意图](content/适用于STM32F103标准库的cmake交叉编译demo工程/images/Structure.webp)
 1. CMakeFlis.txt 文件编写
 ```bash
 #THIS FILE IS AUTO GENERATED FROM THE TEMPLATE! DO NOT CHANGE!
@@ -181,10 +181,10 @@ program /Users/miao/Documents/StmProject/Test/build/Test.hex verify reset exit
 ```
 ##### 四、VSCODE设置
 1. 设置环境
-![](https://pisces.now.cc/d/BQACAgUAAxkDAAOFZ4-XrMQm74Dpy_XZ5cJgGU2YQNcAAuEUAAInCXhUyQSeQlJLGxI2BA)
+![](content/适用于STM32F103标准库的cmake交叉编译demo工程/images/Vscode.webp)
 2. cortex-debug 配置,如果想看寄存器文件需要下载[svd文件](https://www.st.com/content/st_com/en/search.html#)然后添加到配置里。
-![](https://pisces.now.cc/d/BQACAgUAAxkDAAOGZ4-Yt3_R1ftMS0tfRt9AMx8rRx8AAuYUAAInCXhUcf7Ou8U9fwABNgQ)
-3. 另外附上[standard peripheral](https://www.st.com/content/st_com/en/search.html#q=%20standard%20peripheral%20library-t=tools-page=1)
+![](content/适用于STM32F103标准库的cmake交叉编译demo工程/images/debug.webp)
+1. 另外附上[standard peripheral](https://www.st.com/content/st_com/en/search.html#q=%20standard%20peripheral%20library-t=tools-page=1)
 ##### 五、运行烧录，执行run.sh脚本。
 
 <hr class="apple-dvirider">
